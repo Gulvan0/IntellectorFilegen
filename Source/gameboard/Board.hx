@@ -182,7 +182,7 @@ class Board extends Sprite
         addChild(hexagonLayer);
         addChild(pieceLayer);
 
-        produceHexagons(false);
+        produceHexagons(letters);
         producePieces();
         if (lettersEnabled)
             drawLetters();
